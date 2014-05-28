@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="external/webkit" name="c8813q-dev/android_external_webkit" revision="kitkat" />
+    <project path="hardware/atheros/wlan" name="c8813q-dev/android_hardware_atheros_wlan" revision="cm-11.0" />
+    <project path="hardware/atheros/wifi/ath6kl-huawei" name="c8813q-dev/android_hardware_atheros_wifi_ath6kl-huawei" revision="master" />
+    <project path="hardware/qcom/display-legacy" name="c8813q-dev/android_hardware_qcom_display-legacy" revision="cm-11.0" />
+    <project path="hardware/qcom/media-legacy" name="c8813q-dev/android_hardware_qcom_media-legacy" revision="cm-11.0" />
+    <project path="device/huawei/c8813q" name="c8813q-dev/android_device_huawei_c8813q" revision="cm-11.0" />
+    <project path="kernel/huawei/c8813q" name="c8813q-dev/android_kernel_huawei_c8813q" revision="jb_rel_2.0.3" />
+    <project path="vendor/huawei/c8813q" name="c8813q-dev/android_vendor_huawei_c8813q" revision="cm-11.0" />
+    <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-11.0" />
+</manifest>
