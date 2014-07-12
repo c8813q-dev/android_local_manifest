@@ -2,6 +2,7 @@
 <manifest>
     <remove-project name="CyanogenMod/android_bootable_recovery" />
     <project path="bootable/recovery" name="c8813q-dev/cwm_bootable_recovery_cn" revision="cm-11.0" />
+    <project path="bootable/recovery-philz" name="dianlujitao/philz_touch_cwm6_cn" revision="cm-11.0" />
     <project path="external/webkit" name="c8813q-dev/android_external_webkit" revision="kitkat" />
     <project path="hardware/atheros/wlan" name="c8813q-dev/android_hardware_atheros_wlan" revision="cm-11.0" />
     <project path="hardware/atheros/wifi/ath6kl-huawei" name="c8813q-dev/android_hardware_atheros_wifi_ath6kl-huawei" revision="master" />
