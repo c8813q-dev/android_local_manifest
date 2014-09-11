@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remove-project name="android_bootable_recovery" />
+    <remove-project name="androidarmv6/android_hardware_qcom_display-legacy" /> 
+    <remove-project name="androidarmv6/android_hardware_qcom_media-legacy" />
+    <remove-project name="android_build" />
+    <project path="build" name="c8813q-dev/pacman_build" groups="pdk" remote="github" revision="pac-4.4" >
+      <copyfile src="core/root.mk" dest="Makefile" />
+    </project>
+    <project path="bootable/recovery" name="c8813q-dev/cwm_bootable_recovery_cn" remote="github" revision="cm-11.0" />
+    <remove-project name="androidarmv6/android_hardware_qcom_display-legacy" />
+    <project path="bootable/recovery-philz" name="dianlujitao/philz_touch_cwm6_cn" remote="github" revision="cm-11.0" />
+    <project path="external/webkit" name="c8813q-dev/android_external_webkit" remote="github" revision="kitkat" />
+    <project path="hardware/atheros/wlan" name="c8813q-dev/android_hardware_atheros_wlan" remote="github" revision="cm-11.0" />
+    <project path="hardware/atheros/wifi/ath6kl-huawei" name="c8813q-dev/android_hardware_atheros_wifi_ath6kl-huawei" remote="github" revision="master" />
+    <project path="hardware/qcom/display-legacy" name="c8813q-dev/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/media-legacy" name="c8813q-dev/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
+    <project path="device/huawei/c8813q" name="c8813q-dev/android_device_huawei_c8813q" remote="github" revision="pac-4.4" />
+    <project path="kernel/huawei/c8813q" name="c8813q-dev/android_kernel_huawei_c8813q" remote="github" revision="cm-11.0" />
+    <project path="vendor/huawei/c8813q" name="c8813q-dev/android_vendor_huawei_c8813q" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-11.0" />
+    <project path="vendor/dianlujitao" name="dianlujitao/android_vendor_dianlujitao" remote="github" revision="master" />
+</manifest>
